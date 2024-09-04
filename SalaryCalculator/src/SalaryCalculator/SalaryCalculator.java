@@ -33,8 +33,8 @@ public class SalaryCalculator {
         double yearOneSalary = calculator.raiseCalc(1);
         double yearTwoSalary = calculator.raiseCalc(2);
 
-        System.out.println("After the first year your salary will be $" + yearOneSalary);
-        System.out.println("After the second year your salary will be $" + yearTwoSalary);
+        System.out.printf("After the first year your salary will be $%.2f\n", yearOneSalary);
+        System.out.printf("After the second year your salary will be $%.2f", yearTwoSalary);
 
         sc.close();
     }
